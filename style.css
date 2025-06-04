@@ -50,7 +50,13 @@ img {
     margin-bottom: 10px;
     border-radius: 8px;
 }
-
+.container {
+    max-width: 800px;
+    margin: 0 40%;
+    /* padding: 20px; */
+    /* background-color: white; */
+    border-radius: 8px;
+}
 form {
     align-items: center;
     background-color: #fff;
@@ -65,7 +71,7 @@ input[type="text"],
 input[type="email"],
 input[type="password"],
 textarea {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 15px;
